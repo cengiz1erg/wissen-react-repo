@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import IfElseSample from "./jsxSample/IfElseSample";
+import JsxEvents from "./jsxSample/JsxEvents";
+import MapSample from "./jsxSample/MapSample";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <JsxEvents></JsxEvents>
+    </>
   );
 }
-
 export default App;

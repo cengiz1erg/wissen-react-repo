@@ -8,3 +8,7 @@ cd wissen-react-repo
 npx create-react-app react-my-tutorial
 cd react-my-tutorial
 ```
+#### 09.03.2022
+- [HTML-CSS Templates](https://www.w3schools.com/w3css/w3css_templates.asp)
+- [HTML to JSX ](https://transform.tools/html-to-jsx)
+- [Push Method vs Spread Operator ](https://www.educative.io/courses/simplifying-javascript-handy-guide/B6yY3r7vEDJ): Push methodu nesne referansını değiştirmez Spread ise içindeki elemanları açarak yeni nesne oluşturmayı sağlar. Referans değişmezse virtual dom değişikliği algılamaz. Bu nedenle Spread Operator kullanlır.

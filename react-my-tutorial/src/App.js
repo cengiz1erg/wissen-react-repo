@@ -3,6 +3,8 @@ import UserDetail from "./propSample/UserDetail";
 import StateSample from "./stateSample/StateSample";
 import StateSample2 from "./stateSample/StateSample2";
 import StateSample3 from "./stateSample/StateSample3";
+import StateSample4 from "./stateSample/StateSample4";
+import StateSample5 from "./stateSample/StateSample5";
 
 function App() {
 
@@ -24,7 +26,9 @@ function App() {
 
       {/* <StateSample></StateSample> */}
       {/* <StateSample2></StateSample2> */}
-      <StateSample3></StateSample3>
+      {/* <StateSample3></StateSample3> */}
+      {/* <StateSample4></StateSample4> */}
+      <StateSample5></StateSample5>
     </>
 
   );

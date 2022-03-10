@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import SupplierAdd from './SupplierAdd';
 import SupplierList from './SupplierList';
 
 function SupplierPage() {

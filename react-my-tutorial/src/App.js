@@ -1,3 +1,4 @@
+import SupplierPage from "./fetchSample/SupplierPage";
 import GroupDetail from "./propSample/GroupDetail";
 import UserDetail from "./propSample/UserDetail";
 import StateSample from "./stateSample/StateSample";
@@ -20,15 +21,7 @@ function App() {
   
   return (
     <>
-      {/* <UserDetail userAdress='Süleyman Seba caddesi' color='yellow' name="Pink" surname="Floyd" money={2000}></UserDetail>
-
-      <GroupDetail group={group}></GroupDetail> */}
-
-      {/* <StateSample></StateSample> */}
-      {/* <StateSample2></StateSample2> */}
-      {/* <StateSample3></StateSample3> */}
-      {/* <StateSample4></StateSample4> */}
-      <StateSample5></StateSample5>
+      <SupplierPage></SupplierPage>
     </>
 
   );

@@ -1,12 +1,15 @@
-import React, { useEffect, useState } from 'react'
 import CartList from './CartList';
+import React, { useContext, useEffect, useState } from 'react'
+import cartContext from '../store/cartContext';
 
 function ProductList() {
-
+    console.log('Productlist component rendered!');
 
     const [products, setProducts] = useState([]);
-    const [cart, setCart] = useState([]);
+    // const [cart, setCart] = useState([]);
+    const {cart, setCart} = useContext(cartContext)
     const [totalPrice, setTotalPrice] = useState(0)
+    
 
     useEffect(() => {
 
@@ -76,7 +79,8 @@ function ProductList() {
             <h1>Total Price:  {totalPrice.toFixed(2)}</h1>
             <button onClick={() => emptyCart()}>Empty Cart</button>
 
-            <CartList cart={cart} remove={removeItem}></CartList>
+            {/* <CartList cart={cart} remove={removeItem}></CartList> */}
+            <CartList remove={removeItem}></CartList>
 
             <hr></hr>
             <table>

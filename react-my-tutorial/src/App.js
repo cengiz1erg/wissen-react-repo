@@ -1,20 +1,10 @@
-import { Route, Routes } from "react-router-dom";
-import AboutPage from "./routingSample/AboutPage";
-import ContactPage from "./routingSample/ContactPage";
-import Home from "./routingSample/Home";
-import SupplierDetail from "./routingSample/SupplierDetail";
-import SupplierPage from "./routingSample/SupplierPage";
+import ProductList from "./cartSample/ProductList";
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/about' element={<AboutPage/>}></Route>
-        <Route path='/contact' element={<ContactPage/>}></Route>
-        <Route path='/suppliers' element={<SupplierPage/>}></Route>
-        <Route path='/suppliers/detail/:id' element={<SupplierDetail/>}></Route>
-      </Routes>
+      <h1>Cart count: 0</h1>
+      <ProductList></ProductList>
     </>
   );
 }

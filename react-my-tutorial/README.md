@@ -24,3 +24,8 @@ npm install react-router-dom@6
 - ***Calling method via arrow function vs calling function directly in event of button.
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [React Hook - useEffect](https://medium.com/frontend-development-with-js/react-hooks-useeffect-nedir-1a94e5463b7f)
+
+#### 13.03.2022
+- [.NET 5 REST API Tutorial - Build From Scratch With C#](https://www.youtube.com/watch?v=ZXdFisA_hOY&t=11563s)
+- [Full React Course 2020](https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8234s)
+- [Inside React.JS | Virtual DOM](https://medium.com/swlh/inside-react-js-virtual-dom-680020c526af)

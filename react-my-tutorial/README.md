@@ -39,4 +39,4 @@ npm install antd
 - [Props pass from child to parent](https://www.pluralsight.com/guides/how-to-pass-props-object-from-child-component-to-parent-component)
 - [React Projects](https://reactjs.org/community/examples.html)
 - [Data bind - Pagination](https://jasonwatmore.com/post/2017/03/14/react-pagination-example-with-logic-like-google)
-![Project Sample](/react-my-tutorial//projectSample.png)
+- ![Project Sample](/react-my-tutorial//projectSample.png)
